@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .blog-posts, .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .blog-post, .project {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact, .social-media {
+            margin: 20px 0;
+        }
+        .social-media a {
+            margin: 0 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>我的个人博客</h1>
+    </header>
+
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">博客</a>
+        <a href="#">关于我</a>
+        <a href="#">联系我</a>
+    </nav>
+
+    <div class="container">
+        <!-- 博客展示 -->
+        <section class="blog-posts">
+            <h2 class="section-title">最新博客</h2>
+            <div class="blog-post">
+                <h3>博客文章标题 1</h3>
+                <p>这里是博客文章的简短介绍...</p>
+                <a href="#">阅读更多</a>
+            </div>
+            <div class="blog-post">
+                <h3>博客文章标题 2</h3>
+                <p>这里是博客文章的简短介绍...</p>
+                <a href="#">阅读更多</a>
+            </div>
+            <div class="blog-post">
+                <h3>博客文章标题 3</h3>
+                <p>这里是博客文章的简短介绍...</p>
+                <a href="#">阅读更多</a>
+            </div>
+        </section>
+
+        <!-- 项目展示 -->
+        <section class="projects">
+            <h2 class="section-title">我的项目</h2>
+            <div class="project">
+                <h3>项目名称 1</h3>
+                <p>项目描述...</p>
+            </div>
+            <div class="project">
+                <h3>项目名称 2</h3>
+                <p>项目描述...</p>
+            </div>
+            <div class="project">
+                <h3>项目名称 3</h3>
+                <p>项目描述...</p>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="contact">
+            <h2 class="section-title">联系方式</h2>
+            <p>邮箱：your-email@example.com</p>
+            <p>电话：123-456-7890</p>
+        </section>
+
+        <!-- 社交媒体链接 -->
+        <section class="social-media">
+            <h2 class="section-title">社交媒体</h2>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 我的个人博客</p>
+    </footer>
+
+</body>
+</html>
